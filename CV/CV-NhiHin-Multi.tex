@@ -1,0 +1,296 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv2}
+\geometry{left=1.4cm,right=1.4cm,top=2cm,bottom=1.5cm,columnsep=1cm}
+\usepackage{paracol}
+\usepackage[default]{roboto}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{555555}
+\definecolor{PaleGrey}{HTML}{777777}
+% \colorlet{name}{black}
+\colorlet{tagline}{black}
+\colorlet{heading}{black}
+\colorlet{headingrule}{black}
+% \colorlet{subheading}{PastelRed}
+\colorlet{accent}{black}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\colorlet{palegrey}{PaleGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+\begin{document}
+\name{Nhi Hin}
+\personalinfo{%
+  \mailaddress{hello@nhihin.com}
+  \phone{+61 424 875 797}
+  \linkedin{nhihin}
+  \twitter{nhihin}
+  \github{nhihin}
+}
+\makecvheader
+\medskip\medskip
+
+\tolerance=9999
+\emergencystretch=10pt
+\hyphenpenalty=10000
+\exhyphenpenalty=100
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio
+\columnratio{0.7}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+% ---------------------------------------------------------------- %
+%                            EXPERIENCE                            %
+% ---------------------------------------------------------------- %
+\cvsection{Experience}
+
+\cvevent{Bioinformatician}{South Australian Genomics Centre (SAGC)}{August 2020 -- Ongoing}{Adelaide, Australia}
+\begin{itemize}
+\item Developed custom workflows and pipelines to enable reproducible processing and analysis of single-cell, spatial, and bulk transcriptomic data.
+\item Integrated single-cell datasets from multiple tissues (skin and heart) by applying appropriate statistical and machine learning techniques in R and Python.
+\item Applied trajectory and velocity analysis techniques to identify and characterise novel progenitor cell types during tissue development and wounding. 
+\item Deployed web applications for visualising large-scale single-cell datasets using R/Shiny and Google Cloud Platform.
+\item Consulted with remote clients and collaborators on diverse multi-omics problems, and quoted for, implemented and delivered 8+ tailored bioinformatics solutions within time and budgetary constraints.
+\end{itemize}
+
+% ---------------------------------------------------------------- %
+%                            EDUCATION                             %
+% ---------------------------------------------------------------- %
+
+\cvsection{Education}
+\cvevent{Doctor of Philosophy (Bioinformatics)}{The University of Adelaide}{2017 -- 2020}{}
+\begin{itemize}
+  \item \yearbold{Thesis Title:} Transcriptome analysis of zebrafish genetic models to reveal early molecular drivers of Alzheimer's disease
+\end{itemize}
+
+\medskip
+\cveventalt{Key Projects}{Iron Responsive Element (IRE)-Mediated Responses to Iron Dyshomeostasis in Alzheimer's Disease}{Jun 2019 -- Aug 2020}{R, shell scripting, Snakemake, High Performance Computing, R/Bioconductor, limma and edgeR, GSEA, workflowR}
+\begin{itemize}
+\item Developed workflow for exploring iron homeostasis at the transcriptional level and applied this to analyze zebrafish, mouse, and human datasets.
+% \item Adapted cutting-edge single-cell velocity analysis technique to explore transcript stability in bulk RNA-seq dataset.
+\item Presented findings at International Joint GIW-ABACBS Conference (Sydney, Dec 2019), winning Best Student Presentation Award (1st Prize). 
+\item \boldline{Hin N}, Newman M, Pederson S, Lardelli M. Iron Responsive Element Mediated Responses to Iron Dyshomeostasis in Alzheimer’s Disease. \textit{J. Alzheimer's Dis.} 2021;84(4):1597-630.
+\end{itemize}
+
+\cveventalt{}{Accelerated brain aging towards transcriptional inversion in a zebrafish model of the K115fs mutation of human \textit{PSEN2}}{Jun 2017 -- May 2019}{R, shell scripting, High Performance Computing, WGCNA, Cytoscape, R/Bioconductor, limma}
+\begin{itemize}
+\item Performed co-expression network analysis to compare brain transcriptomes in a familial Alzheimer's disease animal model with sporadic Alzheimer's disease in humans.
+\item Applied multivariate statistics and modelling to analyse bulk RNA-seq and microarray datasets. 
+\item Designed and created visualisation-rich presentations that won 4 awards from multiple nationally-recognised conferences and symposiums.
+\item \boldline{Hin N*}, Newman M*, Kaslin J, Douek AM, Lumsden A, Nik SHM, Dong Y, Zhou XF, Mañucat-Tan NB, Ludington, A, Adelson DL, Pederson S, Lardelli M. Accelerated brain aging towards transcriptional inversion in a zebrafish model of the K115fs mutation of human \textit{PSEN2}. \textit{PLoS One} 2020;15(1):p.e0227258. 
+\end{itemize}
+
+\cvsection{Education (cont.)}
+\cvevent{Bachelor of Science (Advanced)}{The University of Adelaide}{2014 -- 2016 | \yearbold{GPA:} 6.8 / 7}{}
+\begin{itemize}
+  \item \yearbold{Majors:} Genetics and Chemistry
+\end{itemize}
+
+% ---------------------------------------------------------------- %
+%                            PUBLICATIONS                          %
+% ---------------------------------------------------------------- %
+
+\cvsection{Publications}
+
+* indicates shared first-authorship
+\medskip
+
+\begin{itemize}
+  \item \boldline{Hin N}, Newman M, Pederson S, Lardelli M. Iron Responsive Element Mediated Responses to Iron Dyshomeostasis in Alzheimer’s Disease. \textit{J. Alzheimer's Dis.} 2021;84(4):1597-630.
+  \item \boldline{Hin N*}, Newman M*, Kaslin J, Douek AM, Lumsden A, Nik SHM, Dong Y, Zhou XF, Mañucat-Tan NB, Ludington, A, Adelson DL, Pederson S, Lardelli M. Accelerated brain aging towards transcriptional inversion in a zebrafish model of the K115fs mutation of human \textit{PSEN2}. \textit{PLoS One} 2020;15(1):p.e0227258. 
+  \item Newman M*, \boldline{Hin N*}, Pederson S, Lardelli M. Brain transcriptome analysis of a familial Alzheimer’s disease-like mutation in the zebrafish presenilin 1 gene implies effects on energy production. \textit{Mol. Brain} 2019;12(1):1-5. 
+  \item Dong Y, Newman M, Pederson S, Barthelson K, \boldline{Hin, N}, Lardelli, M. Transcriptome analyses of 7-day-old zebrafish larvae possessing a familial Alzheimer’s disease-like mutation in \textit{psen1} indicate effects on oxidative phosphorylation, ECM and MCM functions, and iron homeostasis. \textit{BMC Genom.} 2021;22(1):1-16. 
+  \item Breen J, McAninch D, Jankovic-Karasoulos T, McCullough D, Smith MD, Bogias KJ, Wan Q, Choudhry, A, \boldline{Hin N}, Pederson SM, Bianco-Miotto T. Temporal placental genome wide expression profiles reflect three phases of utero-placental blood flow during early to mid human gestation. \textit{medRxiv} 2020 (Pre-Print).
+  \item Newman M, Nik HM, Sutherland GT, \boldline{Hin N}, Kim WS, Halliday, GM, Jayadev S, Smith C, Laird AS, Lucas CW,  Kittipassorn T. Accelerated loss of hypoxia response in zebrafish with familial Alzheimer’s disease-like mutation of presenilin 1. \textit{Hum. Mol. Genet.} 2020;29(14):2379-94.
+\end{itemize}
+
+\switchcolumn
+
+% ---------------------------------------------------------------- %
+%                            OBJECTIVE                             %
+% ---------------------------------------------------------------- %
+
+\cvsection{Objective}
+Australian Bioinformatician with 4+ years of experience in transcriptomics and solid background in Alzheimer's disease research. Seeking to bring expertise in single-cell and spatial transcriptomics to Alkahest Inc. Highly skilled in statistics, data visualization, and creative thinking. 
+
+% ---------------------------------------------------------------- %
+%                            ACHIEVEMENTS                          %
+% ---------------------------------------------------------------- %
+\cvsection{Awards}
+\begin{itemize}
+  \item \customsmalltext{\yearbold{2021 - Recipient of 10X-Millenium Science Spatial Pioneers Fellowship Scheme}. Australia.}
+  \smallskip
+  \item \yearbold{2021 - Semi-Finalist in Channel 7 7NEWS Young Achiever Awards}. Adelaide, Australia.
+  \smallskip
+  \item \yearbold{2020 - Doctoral Research Medal (top 4\% of theses submitted in 2020)}. The University of Adelaide. Adelaide, Australia.
+  \smallskip
+  \item \yearbold{2020 - Best Student Presentation Award (1st Place), out of 15 speakers}, Joint GIW-ABACBS International Conference. Sydney, Australia.
+  \smallskip
+  \item \yearbold{2019 - Best Poster Presentation Award, out of 35 entrants}, AMSI BioInfoSummer. Sydney, Australia.
+  \smallskip
+  \item \yearbold{2019 - Best Presentation Award, out of 50 speakers}, Australia-Japan Joint Neurodegenerative Disease Symposium. Adelaide, Australia.
+  \smallskip
+  \item \yearbold{2019 - CHOOSEMaths Travel Grant Winner, one of 20 winners selected nationally}, Australian Mathematical Sciences Institute (AMSI). Sydney, Australia.
+  \smallskip
+  \item \yearbold{2017 - Oral Presentation Award (3rd Place), out of 15 speakers}, COMBINE Symposium. Adelaide, Australia.
+  \smallskip
+  \item \yearbold{2017 - Best Conference Poster Award, out of 36 entrants}, Model Organisms in Human Health Australia (MOHHA). Yarra Valley, Victoria.
+\end{itemize}
+
+%\cvsection{Peer Review Experience}
+%\begin{itemize}
+%\item \yearbold{2021} -- Invited reviewer for \textit{PLOS One}
+%\item \yearbold{2021} -- Invited reviewer for \textit{International Journal of General Medicine}
+%\end{itemize}
+%\medskip
+
+
+\newpage
+
+% ---------------------------------------------------------------- %
+%                            TEACHING                              %
+% ---------------------------------------------------------------- %
+
+\cvsection{Teaching Experience}
+\cvevent{}{Tutor for South Australian Genomics Centre Workshop Series}{August 2021}{}
+\begin{itemize}
+\item Developed and taught workshop material for class of 100+ attendees. 
+\item \yearbold{Topics:} Bulk RNA-seq Analysis, Single-cell RNA-seq Analysis
+\end{itemize}
+\divider
+\cvevent{}{Tutor for Spring Into Bioinformatics Workshop}{September 2019}{}
+\begin{itemize}
+\item Developed and taught workshop material for class of 50+ students, as part of the University of Adelaide's Bioinformatics Hub Workshop Series.
+\item \yearbold{Topics:} Introduction to R and RStudio for Biological Research; Gene Expression Analysis for RNA-seq Data; QC and Alignment for Next-Generation Sequencing Data
+\end{itemize}
+
+
+
+
+\switchcolumn
+
+% ---------------------------------------------------------------- %
+%                       CONFERENCE PRESENTATIONS                   %
+% ---------------------------------------------------------------- %
+
+\cvsection{Conference Presentations}
+\textbf{\smallsubsection{Talks}}
+\begin{itemize}
+    \item RNA-seq analysis of a zebrafish model of Alzheimer’s disease reveals the importance of iron homeostasis. Presented at \textit{COMBINE Symposium} and \textit{Joint GIW-ABACBS International Conference}. December 2019. Sydney, Australia. (\textbf{Oral Presentation Prize / 1st place}, out of 15 speakers)
+    \item Computational Analysis Reveals an Early Brain Iron Deficiency Response in a Zebrafish Mutation Model of Familial Alzheimer’s Disease. Presented at the \textit{Back to Basics: Understanding the Molecular Basis of Alzheimer’s Disease workshop}. September 2019. Sydney, Australia.
+    \item Bioinformatics analysis of familial Alzheimer’s disease-like zebrafish. Presented at the \textit{AustraliaJapan Neurodegenerative Disease Symposium}. June 2019. Adelaide, Australia. (\textbf{Best Presentation Award}, out of 50 speakers)
+    \item Diving into Alzheimer’s Disease with Transcriptome Analysis of a Zebrafish Model. Presented at \textit{COMBINE Symposium}. October 2017. Adelaide, Australia. (\textbf{Oral Presentation Prize / 3rd place}, out of 15 speakers)
+\end{itemize}
+
+\divider
+
+\textbf{\smallsubsection{Posters}}
+\begin{itemize}
+    \item Iron Enriched. Presented at \textit{AMSI BioInfoSummer}, December 2019. Sydney, Australia. (\textbf{Best Poster Prize}, out of 35 entrants)
+    \item RNA-seq analysis of aging and Alzheimer’s disease in a zebrafish model. Presented at the \textit{Model Organisms for Human Health Australia (MOHHA) Conference}, June 2017. Melbourne, Victoria. (\textbf{Best Poster Prize}, out of 36 entrants)
+\end{itemize}
+\medskip
+
+\end{paracol}
+\newpage
+
+% ---------------------------------------------------------------- %
+%                            SKILLS                                %
+% ---------------------------------------------------------------- %
+
+\cvsection{Scientific and Technical Expertise}
+
+\columnratio{0.5}
+\begin{paracol}{2}
+
+\yearbold{\smallsubsection{Programming Languages}}
+\begin{itemize}
+    \item R, including use of tidyverse, Bioconductor, shiny, and workflowR
+    \item Python, including use of NumPy, pandas, and scikit-learn
+    \item Shell scripting
+\end{itemize}
+\medskip
+
+\yearbold{\smallsubsection{Bioinformatics Data Processing and Analysis}}
+\begin{itemize}
+    \item Single-cell RNA-seq
+    \item Spatial transcriptomics
+    \item Bulk RNA-seq
+    \item Microarrays
+    \item CRISPR screens
+    \item LS-MS/MS proteomics
+    \item Metagenomics
+    \item Whole genome bisulfite sequencing
+    \item Whole genome sequencing
+    \item Analysis of gene co-expression networks
+    \item Accessing and integrating data from biological databases
+    \item Multi-omics analysis and data integration
+    \item Experimental design and power calculations
+\end{itemize}
+\medskip
+
+\yearbold{\smallsubsection{Software Engineering and Data Management}}
+\begin{itemize}
+    \item Use of high performance computing (HPC) resources via SLURM
+    \item Development of pipelines/workflows using Snakemake, Nextflow, and workflowR
+    \item Use of Git and version control
+    \item Use of Docker containers and Conda environments
+    \item Development of unit tests
+\end{itemize}
+\medskip
+
+\switchcolumn
+
+\yearbold{\smallsubsection{Machine Learning and Data Science}}
+\begin{itemize}
+    \item Data cleaning and pre-processing
+    \item Dealing with missing or censored values and technical batch effects
+    \item Feature selection and engineering
+    \item Supervised analysis problems, including classification and regression
+    \item Unsupervised analysis problems, including clustering, matrix factorisation, and dimension reduction
+    \item Network analysis and graph visualisation
+    \item Web app development using R/Shiny
+    \item Deployment of applications on Google Cloud Platform
+    \item Use of SQL databases
+\end{itemize}
+\medskip
+
+\yearbold{\smallsubsection{Other Technical Skills}}
+\begin{itemize}
+    \item Adobe Photoshop and InDesign for scientific illustration and poster design
+    \item HTML/CSS and website management
+\end{itemize}
+\medskip
+\end{paracol}
+
+\columnratio{0.5}
+
+% ---------------------------------------------------------------- %
+%                            REFERENCES                            %
+% ---------------------------------------------------------------- %
+
+\cvsection{Referees}
+\begin{paracol}{2}
+
+    \cvref{Dr.\ Jimmy Breen}{Former Head of Bioinformatics,\\  South Australian Genomics Centre}{jimmy.breen@adelaide.edu.au}{+61 477 830 366}
+    {}
+\switchcolumn
+    \cvref{A/Prof.\ Michael Lardelli}{The University of Adelaide}{michael.lardelli@adelaide.edu.au}{(08) 8313 3212}
+    {}
+
+\end{paracol}
+
+
+\end{document}
